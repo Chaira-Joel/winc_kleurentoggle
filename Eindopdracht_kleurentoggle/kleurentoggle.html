@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mate+SC&display=swap");
+    </style>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <title>Kleurentoggle</title>
+  </head>
+  <body>
+    <h1 id="hoofdtekst">Pick your color</h1>
+
+    <!-- topnavigatie -->
+    <nav class="topnavigatie">
+
+    <!-- kleurenlinks -->
+    <div id="btn-toggle-nav">
+      <br />
+      <br />
+      <br />
+
+      <!-- unordered list opent -->
+      <ul id="unordered-list">
+        <li id="home-list">
+          <input
+            type="radio"
+            id="home"
+            name="color"
+            value="home"
+            onclick="changeBackground('lightgray');"
+          />
+          <label for="home">Home</label>
+
+        <li id="red-list">
+          <input
+            type="radio"
+            id="red"
+            name="color"
+            value="red"
+            onclick="changeBackground('red');"
+          />
+          <label for="red">Red</label>
+        </li>
+
+        <li id="blue-list">
+          <input
+            type="radio"
+            id="blue"
+            name="color"
+            value="blue"
+            onclick="changeBackground('blue');"
+            
+          />
+          <label for="blue">blue</label>
+        </li>
+
+        <li id="orange-list">
+          <input
+            type="radio"
+            id="orange"
+            name="color"
+            value="orange"
+            onclick="changeBackground('orange');"
+          />
+          <label for="orange">Orange</label>
+        </li>
+
+        <li id="green-list">
+          <input
+            type="radio"
+            id="green"
+            name="color"
+            value="green"
+            onclick="changeBackground('green');"
+          />
+          <label for="green">Green</label>
+        </li>
+
+        <li id="pink-list">
+          <input
+            type="radio"
+            id="pink"
+            name="color"
+            value="pink"
+            onclick="changeBackground('pink');"
+          />
+          <label for="pink">Pink</label>
+        </li>
+      </ul>
+    </nav>
+      </div>
+
+  </body>
+</html>

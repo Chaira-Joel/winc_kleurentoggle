@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body styling */
+body {
+  background: lightgrey;
+  font-family: "Mate SC", serif;
+}
+
+/* topnavigatie bar */
+.topnavigatie {
+  width: 5%;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* hamburger menu */
+#btn-toggle-nav {
+  width: 63px;
+  height: 100%;
+  background-color: #39acf9;
+  background-image: url(/Eindopdracht_kleurentoggle/Images/hamburger_menu.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  cursor: pointer;
+}
+
+/* unorderedlist  */
+.topnavigatie #unordered-list {
+  display: none;
+  padding: 0;
+  width: 204px;
+  border: 1px solid black;
+}
+
+/* lijst items van de unordered list (met kleuren) */
+.topnavigatie #unordered-list li {
+  list-style: none;
+  line-height: 50px;
+  display: block;
+  width: 202px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+/* bij het hoveren  */
+.topnavigatie #unordered-list li:hover {
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
+}
+/* kleuren van de unordered list items */
+.topnavigatie ul li:nth-child(1) {
+  background-color: lightgray;
+}
+.topnavigatie ul li:nth-child(2) {
+  background-color: red;
+}
+.topnavigatie ul li:nth-child(3) {
+  background-color: lightblue;
+}
+
+.topnavigatie ul li:nth-child(4) {
+  background-color: orange;
+}
+
+.topnavigatie ul li:nth-child(5) {
+  background-color: lightgreen;
+}
+
+.topnavigatie ul li:nth-child(6) {
+  background-color: pink;
+}
